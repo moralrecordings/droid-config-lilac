@@ -46,7 +46,7 @@ Requires:
 - gstreamer1.0-plugins-bad
 - nemo-gstreamer1.0-interfaces
 # For devices with droidmedia and gst-droid built, see HADK pdf for more information
-#- gstreamer1.0-droid
+- gstreamer1.0-droid
 
 # This is needed for notification LEDs
 - mce-plugin-libhybris
@@ -79,8 +79,8 @@ Requires:
 #- jolla-mediaplayer-radio
 
 # NFC for devices using Android 8 or newer as base
-#- nfcd-binder-plugin
-#- jolla-settings-system-nfc
+- nfcd-binder-plugin
+- jolla-settings-system-nfc
 
 Summary: Jolla HW Adaptation lilac
 
