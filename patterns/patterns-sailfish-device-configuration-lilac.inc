@@ -13,6 +13,14 @@ Requires: sailfish-content-graphics-z%{icon_res}
 # For multi-SIM devices
 #Requires: jolla-settings-networking-multisim
 
+# For devices which support NFC
+Requires: jolla-settings-system-nfc
+Requires: nfcd-dbuslog-plugin
+Requires: nfcd-mce-plugin
+
+# For flashlight
+Requires: jolla-settings-system-flashlight
+
 # Introduced starting Sailfish OS 2.0.4.x:
 # 3rd party accounts like Twitter, VK, cloud services, etc
 Requires: jolla-settings-accounts-extensions-3rd-party-all
@@ -27,12 +35,9 @@ Requires: geoclue-provider-mlsdb
 # Sailfish OS CSD tool for hardware testing
 # needs some configuration to get all features working
 
-# Flashlight!
-Requires: jolla-settings-system-flashlight
-
 # Devices with 2G or more memory should also include this booster
 # to improve camera startup times and the like
-#Requires: mapplauncherd-booster-silica-qt5-media
+Requires: mapplauncherd-booster-silica-qt5-media
 
 %description -n patterns-sailfish-device-configuration-lilac
 Pattern with packages for lilac configurations
