@@ -7,8 +7,8 @@
 %define vendor_pretty Sony
 %define device_pretty Xperia XZ1 Compact
 
-%define android_version_major 8
-%define android_version_minor 1
+%define android_version_major 11
+%define android_version_minor 0
 
 # Community HW adaptations need this
 %define community_adaptation 1
